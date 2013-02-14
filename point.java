@@ -6,7 +6,7 @@
  */
 
 public class Point {
-	int x, y;
+	public int x, y;
 
 	/**
 	 *  Constructor

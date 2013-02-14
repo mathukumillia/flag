@@ -8,8 +8,8 @@
 
 public class Test {
 	public static void main(String[] args) {
-		Point p = new Point(3,6);
+		GraphicsPoint p = new GraphicsPoint(3,6);
 
-		System.out.println(p.x);
+		System.out.println(p.getX());
 	}
 }
