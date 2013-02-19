@@ -17,8 +17,7 @@ public class GraphicsPoint {
 	 * 	
 	 */
 	public GraphicsPoint(int x, int y){
-		setX(x);
-		setY(y);
+		moveTo(x,y);
 	}
 	
 	/**
@@ -40,5 +39,11 @@ public class GraphicsPoint {
 		if(y >= 0){
 			this.y = y;
 		}	
+	}
+
+	//methods
+	public void moveTo(int x, int y){
+		setX(x);
+		setY(y);
 	}
 }
